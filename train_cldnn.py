@@ -73,7 +73,7 @@ print("Test loss", test_loss)
 SNR_accuracy(SNR, lbl_SNR, test_idx, X_test, Y_test, model, SNR, 'CNN')
 
 
-model = tf.keras.models.load_model("cldnn_model.h5")
+model = tf.keras.models.load_model("./models/cldnn_model.h5")
 
 prediction = model.predict([X_test[:,:,:]])
 
