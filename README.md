@@ -7,4 +7,4 @@ Dataset can be found at [RadioML2016.10a](https://opendata.deepsig.io/datasets/2
 - `train_cnn.py` - Train a CNN model for AMC.
 - `train_cldnn.py` - Train a CLDNN model for AMC.
 - `process.py` - Helper to load and process dataset.
-- `plot.py` - Helper to plot and visualize data.
+- `plot.py` - Helper to plot and visualize data
